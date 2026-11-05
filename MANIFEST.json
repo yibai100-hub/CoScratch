@@ -8,8 +8,8 @@
     "sha256": "93bb46be314ac95b3523b7955613347590daa2cc992a8476d33a8f6aa48d70d9"
   },
   "README.md": {
-    "bytes": 5263,
-    "sha256": "28487ba2cdd69a99f16fbf41d45434e0b1b780fa0637c7b68033d446a3675e38"
+    "bytes": 5248,
+    "sha256": "145fbc368672c7a93efd3ddca6d45a55e09e4b9f22dfab531fe9ab4460334b1b"
   },
   "act/README.md": {
     "bytes": 2776,
@@ -373,14 +373,14 @@
   },
   "media/physical_motion_1x_edit.json": {
     "bytes": 1174,
-    "sha256": "ebb35b9d3ab3a9378aff9de9eb68fb0186512d5a83c73527a7e0eb2cb4935034"
+    "sha256": "04779e30ddbcd96129486fa48e26fe637ebc8182801f2c3ddd145f276f8128b3"
   },
   "media/physical_robot_motion_1x_pauses_4x.mp4": {
-    "bytes": 14166739,
-    "sha256": "f6ef371270d6e7e41e930a4d6526a583a9d83c86356bc1252d5ebddf49208ee4"
+    "bytes": 14257933,
+    "sha256": "c6bf3c62bd0f75b8c4a1aed49401c970405f7b9d4f3908969754e25905711d21"
   },
   "media/physical_robot_preview.jpg": {
-    "bytes": 214773,
-    "sha256": "9adf945686b901c08ae135f663cd7836b56139621db0e3f9f518296255265fe2"
+    "bytes": 208397,
+    "sha256": "8da49ace7ee976ee6bcd0dd3e7c87a6dc4faac10e7869dbbb2280dbdb01f51b0"
   }
 }

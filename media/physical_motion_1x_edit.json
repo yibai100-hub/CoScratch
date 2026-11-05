@@ -42,5 +42,5 @@
   "selection": "Conservative low-motion intervals selected from camera-motion-compensated visual analysis. These are editing decisions, not robot telemetry.",
   "chronology_preserved": true,
   "audio": "Same segment speeds, pitch-preserving atempo",
-  "output_sha256": "f6ef371270d6e7e41e930a4d6526a583a9d83c86356bc1252d5ebddf49208ee4"
+  "output_sha256": "c6bf3c62bd0f75b8c4a1aed49401c970405f7b9d4f3908969754e25905711d21"
 }
