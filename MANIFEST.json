@@ -8,16 +8,84 @@
     "sha256": "93bb46be314ac95b3523b7955613347590daa2cc992a8476d33a8f6aa48d70d9"
   },
   "README.md": {
-    "bytes": 4358,
-    "sha256": "8ae703e5c9ad960fa80d5955de10622125871110ed11bdf0966771d8d9b8cb2a"
+    "bytes": 5263,
+    "sha256": "28487ba2cdd69a99f16fbf41d45434e0b1b780fa0637c7b68033d446a3675e38"
+  },
+  "act/README.md": {
+    "bytes": 2776,
+    "sha256": "cc9a40de7c708a89ad0df18d89ba7c4a48b07c404af8a3f03b0e3f0a26e7da03"
+  },
+  "act/assets/calibration/initial_pose.json": {
+    "bytes": 765,
+    "sha256": "8049b0f9c05b7f33edf0f6bde6b69bcaa1f8913b8ac4b19c71c4ea092c39b18e"
+  },
+  "act/assets/calibration/motor_to_joint.json": {
+    "bytes": 312547,
+    "sha256": "950d980577fa809a8f8202ed6b845a4e0f8b284bf153e2316363c9530fafb5ca"
+  },
+  "act/assets/calibration/sha256.txt": {
+    "bytes": 66,
+    "sha256": "2b91af18bcb62feae4f25f844f456bc41293aa29c7a0416c4e7d45d2ed0534eb"
+  },
+  "act/assets/robot_kinematics.urdf": {
+    "bytes": 33117,
+    "sha256": "d69c250387447d3794dc7fe9486a3e384d589ad3517bef9f57974c492b1ffe71"
+  },
+  "act/config/hardware_binding.pending.json": {
+    "bytes": 2336,
+    "sha256": "4ab11403fe2ad389d5f62e0b6df49f40cef16e9a77fd10800a204a5b13c60455"
+  },
+  "act/config/model_contract.json": {
+    "bytes": 624,
+    "sha256": "45686b256ac0bec4b7bee7b19a03c02a0f82b34d37213bc5118ccb463721cdc5"
   },
   "act/core.py": {
     "bytes": 11640,
     "sha256": "d39578362f2b3157a4ae42dfbad8ea6261e432a1389aa27dc1171bc2cf1ee4ad"
   },
+  "act/fixtures/reference_5367.jsonl": {
+    "bytes": 2131457,
+    "sha256": "0517239eb1c8e98c0eb741f1bf3545a4ea321b9ace0a77639d2907a22dee0f8f"
+  },
   "act/frames.py": {
     "bytes": 1182,
     "sha256": "433b7fa9880045c9e9a8d9da69cfab3f47b0f7fb961e3ce2a19484fe2df82002"
+  },
+  "act/frozen/act_finger_branch_mapper_continuous_v1.py": {
+    "bytes": 3206,
+    "sha256": "52462d484704490207e4c595a02fcf17a6359d9458dd02520e6a2137807e14a1"
+  },
+  "act/frozen/act_recurrent_joint_phase_v1.py": {
+    "bytes": 2173,
+    "sha256": "1b10d4811b3e0ba6dfb0d6cc1bcd827f3f7058f3385c3343421f453010ac5bdf"
+  },
+  "act/frozen/act_relative_geometry_v1.py": {
+    "bytes": 2108,
+    "sha256": "3b3629bd921abe74860e1de3de8648592b24d785393f18b9a3c72101e10ebf4e"
+  },
+  "act/frozen/act_withdrawal_expert_v1.py": {
+    "bytes": 2555,
+    "sha256": "ec0a31c4518f5fd407f2924c2ee85bfe371e6afccb64224850f59b96173377c0"
+  },
+  "act/frozen/hand/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "act/frozen/hand/measured_model.py": {
+    "bytes": 14900,
+    "sha256": "f5c0aedc32e71ee8420de7bc3fb1c29de1ce4ccfd1a7b1a86406d939c9a2b023"
+  },
+  "act/frozen/hand/measured_runtime.py": {
+    "bytes": 4668,
+    "sha256": "64ebb723c729afb9983d8c00a309f9acf05f815d57c579225c55efa247e67926"
+  },
+  "act/frozen/hand/reference_model.py": {
+    "bytes": 14053,
+    "sha256": "288df7f7bb2edad4ad5ebd8aa40d318856a58c1555e782b9c8c5d74211a0b997"
+  },
+  "act/frozen/project_paths.py": {
+    "bytes": 70,
+    "sha256": "e86abea143062d7b3ab40ce03146165ca58d131f407080738f1340757b6287ba"
   },
   "act/gateway.py": {
     "bytes": 6257,
@@ -31,9 +99,41 @@
     "bytes": 3818,
     "sha256": "1ea8f246cff13419c0e8f3c53ed1b2ebc148a85090c253f33466111a41f3e4cd"
   },
-  "act/README.md": {
-    "bytes": 2776,
-    "sha256": "cc9a40de7c708a89ad0df18d89ba7c4a48b07c404af8a3f03b0e3f0a26e7da03"
+  "act/reference/executed_simulation_runtime.py": {
+    "bytes": 23502,
+    "sha256": "a822398bb0990d2bba418a258c0f8a8aaf0ff7308c3d84f4efa5153959f5bcf1"
+  },
+  "act/reference/legacy_arm_calibration_20261006.json": {
+    "bytes": 2530,
+    "sha256": "512f7f6bc13480facc701f6c4edfc018d995e8d2bc56d79fa431d9cd70fd3fd4"
+  },
+  "act/reference/legacy_joint_mapping.json": {
+    "bytes": 3344,
+    "sha256": "db07c70c8e5e9e29c50e9c548ae68e8b9c26df481cc5519371247c50e6833507"
+  },
+  "act/reference/simulation_demo_policy.json": {
+    "bytes": 1302,
+    "sha256": "cef98f3e7929629d48104f5f5592e9361f7552944688a5d5e8b8635947caa0d0"
+  },
+  "act/reference/simulation_evaluation_spec.json": {
+    "bytes": 1552,
+    "sha256": "eef6fb04f2f1e46659d0a9f13ab72f732a36e3f562f9d079dc693caf11affda6"
+  },
+  "act/reference/simulation_home_verified_before_ACT.json": {
+    "bytes": 1258,
+    "sha256": "7f5231881249b0423247ddb431c412ca13c71360da61c5b69c9760733ea36916"
+  },
+  "act/reference/simulation_report.json": {
+    "bytes": 14012,
+    "sha256": "dd4d809fef2f0e5a22d8d1b46c9a658d5834a029696656ca878848282a3a1a0a"
+  },
+  "act/reference/simulation_source_context_identity.json": {
+    "bytes": 3270,
+    "sha256": "f4d5f221ec37c48ec9edae6f8ef58c6e37d019fa08e969292a1c9958c5f2aeb1"
+  },
+  "act/reference/source_manifest.json": {
+    "bytes": 3198,
+    "sha256": "d8df0aebb47c0a3fa86473513eb789fad8d7106fa075edf88593e90863cba432"
   },
   "act/release_manifest.json": {
     "bytes": 6509,
@@ -42,6 +142,10 @@
   "act/requirements-pc.txt": {
     "bytes": 264,
     "sha256": "1254edf5bbc457d6790cb25786ac95f00363752f8a12ad1c626203ef25d88d7a"
+  },
+  "act/tests/test_package.py": {
+    "bytes": 12453,
+    "sha256": "be4ce0e812e89443c6a15288d23764312b8c01e06163ad1c00241b97dad0145e"
   },
   "act/validate-pc.ps1": {
     "bytes": 442,
@@ -55,121 +159,13 @@
     "bytes": 563,
     "sha256": "7209434896499c07bbee7b5808eff7e44801eaeded4186bd30cf36b0b1064345"
   },
-  "coscratch/base_guard.py": {
-    "bytes": 7072,
-    "sha256": "a6cbab8459e9b84473b6010ca82ba153f76b5f9f162386959a89d3b65dcd160b"
+  "act/weights/final.pt": {
+    "bytes": 5588171,
+    "sha256": "2b8e8421ffabd90925a69faf7ed55443a131c6689f8bc2983830cccbd577987c"
   },
-  "coscratch/configure_hand.py": {
-    "bytes": 1933,
-    "sha256": "497d85ee4cb21a6d796025c6defb1b7642353f2837a5b1c98afe7b003fe48525"
-  },
-  "coscratch/contact_wave.py": {
-    "bytes": 109727,
-    "sha256": "d231eb73835a4f91edb72ec68dc2a845912f1e5a1c46c6fc77dfdaf0e19165d0"
-  },
-  "coscratch/controller.py": {
-    "bytes": 927931,
-    "sha256": "f9f307d1448b2b97da59f3e1aa7241978b3303349b5b3c1ba9a1223fb0ba94bc"
-  },
-  "coscratch/deformation_monitor.py": {
-    "bytes": 15384,
-    "sha256": "283a495f1d50f7b47d9811a91efec3a15ce6652ddde8faaa80542f224b499ea7"
-  },
-  "coscratch/dense_back_candidates_5mm.csv": {
-    "bytes": 1390822,
-    "sha256": "e76e4dd40e51b0fd3eed22ab473fc86e18a9d000cf89e0910d72b89cd5c39c8a"
-  },
-  "coscratch/dense_ik_robot_descriptor.yaml": {
-    "bytes": 1251,
-    "sha256": "e16da7b61a88bbcf80f3bab83621a59a30f646dd67d4cdefd498b1c52bd0fa26"
-  },
-  "coscratch/depth_control.py": {
-    "bytes": 25129,
-    "sha256": "462912998e073952ec704d3fe01dca0e3dea484438b61a23836cd0daae7f01d7"
-  },
-  "coscratch/finger_scratch_arcs_v102_staged.csv": {
-    "bytes": 119734,
-    "sha256": "69d2c9d5577394e9ba3abe2bddd359586f4e45c183612d70b4dcd4a1a8ca0d25"
-  },
-  "coscratch/hand_model.py": {
-    "bytes": 14302,
-    "sha256": "cf9b6066414fb734cc0a41c8dd889294d901066fe6115291782fae083a857e6e"
-  },
-  "coscratch/joint_search.py": {
-    "bytes": 14482,
-    "sha256": "377ff36145ee03e980cba926257aff7b17b6ae27d4d407cda386b8279f628540"
-  },
-  "coscratch/palm_policy.py": {
-    "bytes": 11786,
-    "sha256": "a8974e671f2215c9ac0c5f8acb39f232b1494707cbae79a1d653c74116e8b1cd"
-  },
-  "coscratch/planning_cache.py": {
-    "bytes": 10424,
-    "sha256": "df0dee45a9c83edfdfdb733f3e3da795a6d3e8345f90343029dafa7395aa6b78"
-  },
-  "coscratch/release_policy.py": {
-    "bytes": 5739,
-    "sha256": "d8cd6bd86e8b03296fa3c7512cd33e5891ad5102b4a0a80d668cc1d23c5b84a4"
-  },
-  "coscratch/robotnew_with_aero_hand_right_isaac.urdf": {
-    "bytes": 32856,
-    "sha256": "6a9a4f0695545e3d8ceb2f9e9f784062387d32be61289434de4985a2c51c3ae6"
-  },
-  "coscratch/robotnew_with_aero_hand_right_lula.urdf": {
-    "bytes": 33227,
-    "sha256": "2cbe84eb275fd0cba8e48e06a4b843d4b7e597566dfc8f5b52f7335332b900fa"
-  },
-  "coscratch/setup_deformation_monitor.py": {
-    "bytes": 15384,
-    "sha256": "283a495f1d50f7b47d9811a91efec3a15ce6652ddde8faaa80542f224b499ea7"
-  },
-  "coscratch/setup_hand_model.py": {
-    "bytes": 14302,
-    "sha256": "cf9b6066414fb734cc0a41c8dd889294d901066fe6115291782fae083a857e6e"
-  },
-  "docs/environment.md": {
-    "bytes": 2091,
-    "sha256": "d85a4e300a26dcadb45660dada1a2e96180301c2141f70f81916cf66ffbbcf73"
-  },
-  "docs/metadata_redaction.json": {
-    "bytes": 697,
-    "sha256": "553670945b2d77ea7722d2998812751f512bd740454129533906770464535c1a"
-  },
-  "docs/model.md": {
-    "bytes": 1763,
-    "sha256": "23dc3913cfd291176b10c515b5e9bb3f566906e67f79466a4dcd46ade1e41a52"
-  },
-  "docs/package_validation.json": {
-    "bytes": 943,
-    "sha256": "4110f0e0e1c8aee24014dad58cc0528e6365a1d690e8311261fad2b54f51103c"
-  },
-  "docs/source_identity.json": {
-    "bytes": 4031,
-    "sha256": "54f27fce27b7377034192530af8451bf8486af4f92351f2703ac917448f0c534"
-  },
-  "coscratch/robotnew_aero_description/meshes/base_link.STL": {
-    "bytes": 1007284,
-    "sha256": "e8523f9077708ae943a89a45322d00058651681de6ad06bdd379538663361834"
-  },
-  "coscratch/robotnew_aero_description/meshes/link1.STL": {
-    "bytes": 215684,
-    "sha256": "d14e99ea62962255e5ed1895ecec0d877ebc638d96c5a46cd68f2e69a972808e"
-  },
-  "coscratch/robotnew_aero_description/meshes/link2.STL": {
-    "bytes": 174884,
-    "sha256": "07adfa13b89fcb83b85b0df97ac4aca7a566d0f9a9e448e37456d84290301e28"
-  },
-  "coscratch/robotnew_aero_description/meshes/link3.STL": {
-    "bytes": 153884,
-    "sha256": "741e1f9c04c4a76aa6a3518d0138e21719d3fa69de683636e8740f6f8f6011bc"
-  },
-  "coscratch/robotnew_aero_description/meshes/link4.STL": {
-    "bytes": 260084,
-    "sha256": "ef6b7a510023534207141c2ccc113724f0c82b7dbefd01822419ba9cc9d0e2be"
-  },
-  "coscratch/robotnew_aero_description/meshes/link5.STL": {
-    "bytes": 232034,
-    "sha256": "84a88b449d2d34ec962da345f6b881fce8d01db3009179f5914a1eb2fcb19e74"
+  "act/weights/normalization.npz": {
+    "bytes": 3104,
+    "sha256": "3e56e56cf3aa23cce7a75ef6e970c860108a0944b6ae52d333c67b458ab2a04f"
   },
   "coscratch/aero_hand_open_description/meshes/right_base_link.STL": {
     "bytes": 1267484,
@@ -239,6 +235,10 @@
     "bytes": 97384,
     "sha256": "136834b83ecb5031361c9a738c9837fca1636d2215273c2025690a270e33c115"
   },
+  "coscratch/aero_hand_open_description/meshes/right_t_link.STL": {
+    "bytes": 152584,
+    "sha256": "6a5ae81623b0ae4ad189a2273bd21284f334f578d200e3a7f52c00f19e7b7335"
+  },
   "coscratch/aero_hand_open_description/meshes/right_thumb_distal_link.STL": {
     "bytes": 159884,
     "sha256": "312656c8079925f006f81d82e9ec3cf7f5b716fe246c3757c979804cb592632c"
@@ -255,120 +255,132 @@
     "bytes": 94684,
     "sha256": "fa0cb0aa6aa9766578853c4b31642a72bae95ba9f7e24a924212e980a921abf3"
   },
-  "coscratch/aero_hand_open_description/meshes/right_t_link.STL": {
-    "bytes": 152584,
-    "sha256": "6a5ae81623b0ae4ad189a2273bd21284f334f578d200e3a7f52c00f19e7b7335"
+  "coscratch/base_guard.py": {
+    "bytes": 7072,
+    "sha256": "a6cbab8459e9b84473b6010ca82ba153f76b5f9f162386959a89d3b65dcd160b"
   },
-  "act/assets/robot_kinematics.urdf": {
-    "bytes": 33117,
-    "sha256": "d69c250387447d3794dc7fe9486a3e384d589ad3517bef9f57974c492b1ffe71"
+  "coscratch/configure_hand.py": {
+    "bytes": 1933,
+    "sha256": "497d85ee4cb21a6d796025c6defb1b7642353f2837a5b1c98afe7b003fe48525"
   },
-  "act/config/hardware_binding.pending.json": {
-    "bytes": 2336,
-    "sha256": "4ab11403fe2ad389d5f62e0b6df49f40cef16e9a77fd10800a204a5b13c60455"
+  "coscratch/contact_wave.py": {
+    "bytes": 109727,
+    "sha256": "d231eb73835a4f91edb72ec68dc2a845912f1e5a1c46c6fc77dfdaf0e19165d0"
   },
-  "act/config/model_contract.json": {
-    "bytes": 624,
-    "sha256": "45686b256ac0bec4b7bee7b19a03c02a0f82b34d37213bc5118ccb463721cdc5"
+  "coscratch/controller.py": {
+    "bytes": 927931,
+    "sha256": "f9f307d1448b2b97da59f3e1aa7241978b3303349b5b3c1ba9a1223fb0ba94bc"
   },
-  "act/fixtures/reference_5367.jsonl": {
-    "bytes": 2131457,
-    "sha256": "0517239eb1c8e98c0eb741f1bf3545a4ea321b9ace0a77639d2907a22dee0f8f"
+  "coscratch/deformation_monitor.py": {
+    "bytes": 15384,
+    "sha256": "283a495f1d50f7b47d9811a91efec3a15ce6652ddde8faaa80542f224b499ea7"
   },
-  "act/frozen/act_finger_branch_mapper_continuous_v1.py": {
-    "bytes": 3206,
-    "sha256": "52462d484704490207e4c595a02fcf17a6359d9458dd02520e6a2137807e14a1"
+  "coscratch/dense_back_candidates_5mm.csv": {
+    "bytes": 1390822,
+    "sha256": "e76e4dd40e51b0fd3eed22ab473fc86e18a9d000cf89e0910d72b89cd5c39c8a"
   },
-  "act/frozen/act_recurrent_joint_phase_v1.py": {
-    "bytes": 2173,
-    "sha256": "1b10d4811b3e0ba6dfb0d6cc1bcd827f3f7058f3385c3343421f453010ac5bdf"
+  "coscratch/dense_ik_robot_descriptor.yaml": {
+    "bytes": 1251,
+    "sha256": "e16da7b61a88bbcf80f3bab83621a59a30f646dd67d4cdefd498b1c52bd0fa26"
   },
-  "act/frozen/act_relative_geometry_v1.py": {
-    "bytes": 2108,
-    "sha256": "3b3629bd921abe74860e1de3de8648592b24d785393f18b9a3c72101e10ebf4e"
+  "coscratch/depth_control.py": {
+    "bytes": 25129,
+    "sha256": "462912998e073952ec704d3fe01dca0e3dea484438b61a23836cd0daae7f01d7"
   },
-  "act/frozen/act_withdrawal_expert_v1.py": {
-    "bytes": 2555,
-    "sha256": "ec0a31c4518f5fd407f2924c2ee85bfe371e6afccb64224850f59b96173377c0"
+  "coscratch/finger_scratch_arcs_v102_staged.csv": {
+    "bytes": 119734,
+    "sha256": "69d2c9d5577394e9ba3abe2bddd359586f4e45c183612d70b4dcd4a1a8ca0d25"
   },
-  "act/frozen/project_paths.py": {
-    "bytes": 70,
-    "sha256": "e86abea143062d7b3ab40ce03146165ca58d131f407080738f1340757b6287ba"
+  "coscratch/hand_model.py": {
+    "bytes": 14302,
+    "sha256": "cf9b6066414fb734cc0a41c8dd889294d901066fe6115291782fae083a857e6e"
   },
-  "act/reference/executed_simulation_runtime.py": {
-    "bytes": 23502,
-    "sha256": "a822398bb0990d2bba418a258c0f8a8aaf0ff7308c3d84f4efa5153959f5bcf1"
+  "coscratch/joint_search.py": {
+    "bytes": 14482,
+    "sha256": "377ff36145ee03e980cba926257aff7b17b6ae27d4d407cda386b8279f628540"
   },
-  "act/reference/legacy_arm_calibration_20261006.json": {
-    "bytes": 2530,
-    "sha256": "512f7f6bc13480facc701f6c4edfc018d995e8d2bc56d79fa431d9cd70fd3fd4"
+  "coscratch/palm_policy.py": {
+    "bytes": 11786,
+    "sha256": "a8974e671f2215c9ac0c5f8acb39f232b1494707cbae79a1d653c74116e8b1cd"
   },
-  "act/reference/legacy_joint_mapping.json": {
-    "bytes": 3344,
-    "sha256": "db07c70c8e5e9e29c50e9c548ae68e8b9c26df481cc5519371247c50e6833507"
+  "coscratch/planning_cache.py": {
+    "bytes": 10424,
+    "sha256": "df0dee45a9c83edfdfdb733f3e3da795a6d3e8345f90343029dafa7395aa6b78"
   },
-  "act/reference/simulation_demo_policy.json": {
-    "bytes": 1302,
-    "sha256": "cef98f3e7929629d48104f5f5592e9361f7552944688a5d5e8b8635947caa0d0"
+  "coscratch/release_policy.py": {
+    "bytes": 5739,
+    "sha256": "d8cd6bd86e8b03296fa3c7512cd33e5891ad5102b4a0a80d668cc1d23c5b84a4"
   },
-  "act/reference/simulation_evaluation_spec.json": {
-    "bytes": 1552,
-    "sha256": "eef6fb04f2f1e46659d0a9f13ab72f732a36e3f562f9d079dc693caf11affda6"
+  "coscratch/robotnew_aero_description/meshes/base_link.STL": {
+    "bytes": 1007284,
+    "sha256": "e8523f9077708ae943a89a45322d00058651681de6ad06bdd379538663361834"
   },
-  "act/reference/simulation_home_verified_before_ACT.json": {
-    "bytes": 1258,
-    "sha256": "7f5231881249b0423247ddb431c412ca13c71360da61c5b69c9760733ea36916"
+  "coscratch/robotnew_aero_description/meshes/link1.STL": {
+    "bytes": 215684,
+    "sha256": "d14e99ea62962255e5ed1895ecec0d877ebc638d96c5a46cd68f2e69a972808e"
   },
-  "act/reference/simulation_report.json": {
-    "bytes": 14012,
-    "sha256": "dd4d809fef2f0e5a22d8d1b46c9a658d5834a029696656ca878848282a3a1a0a"
+  "coscratch/robotnew_aero_description/meshes/link2.STL": {
+    "bytes": 174884,
+    "sha256": "07adfa13b89fcb83b85b0df97ac4aca7a566d0f9a9e448e37456d84290301e28"
   },
-  "act/reference/simulation_source_context_identity.json": {
-    "bytes": 3270,
-    "sha256": "f4d5f221ec37c48ec9edae6f8ef58c6e37d019fa08e969292a1c9958c5f2aeb1"
+  "coscratch/robotnew_aero_description/meshes/link3.STL": {
+    "bytes": 153884,
+    "sha256": "741e1f9c04c4a76aa6a3518d0138e21719d3fa69de683636e8740f6f8f6011bc"
   },
-  "act/reference/source_manifest.json": {
-    "bytes": 3198,
-    "sha256": "d8df0aebb47c0a3fa86473513eb789fad8d7106fa075edf88593e90863cba432"
+  "coscratch/robotnew_aero_description/meshes/link4.STL": {
+    "bytes": 260084,
+    "sha256": "ef6b7a510023534207141c2ccc113724f0c82b7dbefd01822419ba9cc9d0e2be"
   },
-  "act/tests/test_package.py": {
-    "bytes": 12453,
-    "sha256": "be4ce0e812e89443c6a15288d23764312b8c01e06163ad1c00241b97dad0145e"
+  "coscratch/robotnew_aero_description/meshes/link5.STL": {
+    "bytes": 232034,
+    "sha256": "84a88b449d2d34ec962da345f6b881fce8d01db3009179f5914a1eb2fcb19e74"
   },
-  "act/weights/final.pt": {
-    "bytes": 5588171,
-    "sha256": "2b8e8421ffabd90925a69faf7ed55443a131c6689f8bc2983830cccbd577987c"
+  "coscratch/robotnew_with_aero_hand_right_isaac.urdf": {
+    "bytes": 32856,
+    "sha256": "6a9a4f0695545e3d8ceb2f9e9f784062387d32be61289434de4985a2c51c3ae6"
   },
-  "act/weights/normalization.npz": {
-    "bytes": 3104,
-    "sha256": "3e56e56cf3aa23cce7a75ef6e970c860108a0944b6ae52d333c67b458ab2a04f"
+  "coscratch/robotnew_with_aero_hand_right_lula.urdf": {
+    "bytes": 33227,
+    "sha256": "2cbe84eb275fd0cba8e48e06a4b843d4b7e597566dfc8f5b52f7335332b900fa"
   },
-  "act/frozen/hand/measured_model.py": {
-    "bytes": 14900,
-    "sha256": "f5c0aedc32e71ee8420de7bc3fb1c29de1ce4ccfd1a7b1a86406d939c9a2b023"
+  "coscratch/setup_deformation_monitor.py": {
+    "bytes": 15384,
+    "sha256": "283a495f1d50f7b47d9811a91efec3a15ce6652ddde8faaa80542f224b499ea7"
   },
-  "act/frozen/hand/measured_runtime.py": {
-    "bytes": 4668,
-    "sha256": "64ebb723c729afb9983d8c00a309f9acf05f815d57c579225c55efa247e67926"
+  "coscratch/setup_hand_model.py": {
+    "bytes": 14302,
+    "sha256": "cf9b6066414fb734cc0a41c8dd889294d901066fe6115291782fae083a857e6e"
   },
-  "act/frozen/hand/reference_model.py": {
-    "bytes": 14053,
-    "sha256": "288df7f7bb2edad4ad5ebd8aa40d318856a58c1555e782b9c8c5d74211a0b997"
+  "docs/environment.md": {
+    "bytes": 2091,
+    "sha256": "d85a4e300a26dcadb45660dada1a2e96180301c2141f70f81916cf66ffbbcf73"
   },
-  "act/frozen/hand/__init__.py": {
-    "bytes": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  "docs/metadata_redaction.json": {
+    "bytes": 697,
+    "sha256": "553670945b2d77ea7722d2998812751f512bd740454129533906770464535c1a"
   },
-  "act/assets/calibration/initial_pose.json": {
-    "bytes": 765,
-    "sha256": "8049b0f9c05b7f33edf0f6bde6b69bcaa1f8913b8ac4b19c71c4ea092c39b18e"
+  "docs/model.md": {
+    "bytes": 1763,
+    "sha256": "23dc3913cfd291176b10c515b5e9bb3f566906e67f79466a4dcd46ade1e41a52"
   },
-  "act/assets/calibration/motor_to_joint.json": {
-    "bytes": 312547,
-    "sha256": "950d980577fa809a8f8202ed6b845a4e0f8b284bf153e2316363c9530fafb5ca"
+  "docs/package_validation.json": {
+    "bytes": 943,
+    "sha256": "4110f0e0e1c8aee24014dad58cc0528e6365a1d690e8311261fad2b54f51103c"
   },
-  "act/assets/calibration/sha256.txt": {
-    "bytes": 66,
-    "sha256": "2b91af18bcb62feae4f25f844f456bc41293aa29c7a0416c4e7d45d2ed0534eb"
+  "docs/source_identity.json": {
+    "bytes": 4031,
+    "sha256": "54f27fce27b7377034192530af8451bf8486af4f92351f2703ac917448f0c534"
+  },
+  "media/physical_motion_1x_edit.json": {
+    "bytes": 1174,
+    "sha256": "ebb35b9d3ab3a9378aff9de9eb68fb0186512d5a83c73527a7e0eb2cb4935034"
+  },
+  "media/physical_robot_motion_1x_pauses_4x.mp4": {
+    "bytes": 14166739,
+    "sha256": "f6ef371270d6e7e41e930a4d6526a583a9d83c86356bc1252d5ebddf49208ee4"
+  },
+  "media/physical_robot_preview.jpg": {
+    "bytes": 214773,
+    "sha256": "9adf945686b901c08ae135f663cd7836b56139621db0e3f9f518296255265fe2"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "source_sha256": "5528707f50a4eb249f3a53572b06ecb1432e90e2cc3c1068c6eeedb55b90b9b0",
+  "source_duration_s": 60.2663333333,
+  "expected_output_duration_s": 52.0163333333,
+  "segments": [
+    {
+      "source_start_s": 0,
+      "source_end_s": 31,
+      "speed": 1
+    },
+    {
+      "source_start_s": 31,
+      "source_end_s": 33,
+      "speed": 4
+    },
+    {
+      "source_start_s": 33,
+      "source_end_s": 35,
+      "speed": 1
+    },
+    {
+      "source_start_s": 35,
+      "source_end_s": 39,
+      "speed": 4
+    },
+    {
+      "source_start_s": 39,
+      "source_end_s": 49,
+      "speed": 1
+    },
+    {
+      "source_start_s": 49,
+      "source_end_s": 54,
+      "speed": 4
+    },
+    {
+      "source_start_s": 54,
+      "source_end_s": 60.2663333333,
+      "speed": 1
+    }
+  ],
+  "selection": "Conservative low-motion intervals selected from camera-motion-compensated visual analysis. These are editing decisions, not robot telemetry.",
+  "chronology_preserved": true,
+  "audio": "Same segment speeds, pitch-preserving atempo",
+  "output_sha256": "f6ef371270d6e7e41e930a4d6526a583a9d83c86356bc1252d5ebddf49208ee4"
+}

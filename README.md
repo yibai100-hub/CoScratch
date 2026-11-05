@@ -12,6 +12,14 @@ Coordinated robotic scratching with a five-joint arm and a coupled four-finger h
 
 Cloud orchestration, reinforcement-learning experiments, the mobile app and intermediate checkpoints are outside this release.
 
+## Physical demonstration
+
+[![Physical robot demonstration](media/physical_robot_preview.jpg)](https://github.com/yibai100-hub/CoScratch/raw/refs/heads/main/media/physical_robot_motion_1x_pauses_4x.mp4)
+
+[Watch or download the video](https://github.com/yibai100-hub/CoScratch/raw/refs/heads/main/media/physical_robot_motion_1x_pauses_4x.mp4). Motion is shown at **1x real-time speed**; selected low-motion pauses are shown at **4x**, with the current playback speed displayed. The complete chronological sequence is retained. The source recording is 60.27 seconds; the edited video is approximately 52.03 seconds. Audio uses the corresponding segment speeds. [Edit timings and source hash](media/physical_motion_1x_edit.json) are provided for traceability.
+
+This user-provided physical recording illustrates observed behavior; it is not a quantitative contact-force or generalization evaluation.
+
 ## Offline validation
 
 The recorded local environment uses Python 3.11.15, PyTorch 2.7.0+cu128, NumPy 1.26.0 and SciPy 1.15.3. Use a separate environment rather than replacing an existing robot installation.
