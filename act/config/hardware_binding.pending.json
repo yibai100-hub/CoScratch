@@ -1,0 +1,85 @@
+{
+  "schema": "act_hardware_binding_v1",
+  "commissioned": false,
+  "note": "No physical binding selected: current zero/sign/calibration must be verified on connected hardware. No automatic Home.",
+  "arm": {
+    "j1": {
+      "protocol": "serial",
+      "channel": 1,
+      "model_to_physical_sign": null,
+      "model_to_physical_offset_deg": null,
+      "write_sign": null,
+      "write_offset_deg": null,
+      "read_sign": null,
+      "read_offset_deg": null
+    },
+    "j2": {
+      "protocol": "pwm",
+      "channel": 1,
+      "model_to_physical_sign": null,
+      "model_to_physical_offset_deg": null,
+      "write_sign": null,
+      "write_offset_deg": null,
+      "read_sign": null,
+      "read_offset_deg": null
+    },
+    "j3": {
+      "protocol": "serial",
+      "channel": 3,
+      "model_to_physical_sign": null,
+      "model_to_physical_offset_deg": null,
+      "write_sign": null,
+      "write_offset_deg": null,
+      "read_sign": null,
+      "read_offset_deg": null
+    },
+    "j4": {
+      "protocol": "serial",
+      "channel": 4,
+      "model_to_physical_sign": null,
+      "model_to_physical_offset_deg": null,
+      "write_sign": null,
+      "write_offset_deg": null,
+      "read_sign": null,
+      "read_offset_deg": null
+    },
+    "j5": {
+      "protocol": "serial",
+      "channel": 5,
+      "model_to_physical_sign": null,
+      "model_to_physical_offset_deg": null,
+      "write_sign": null,
+      "write_offset_deg": null,
+      "read_sign": null,
+      "read_offset_deg": null
+    }
+  },
+  "fingers": {
+    "index": {
+      "protocol": "pwm",
+      "channel": 5,
+      "curve_motor_to_hardware_sign": null,
+      "curve_motor_to_hardware_offset_deg": null
+    },
+    "middle": {
+      "protocol": "pwm",
+      "channel": 4,
+      "curve_motor_to_hardware_sign": null,
+      "curve_motor_to_hardware_offset_deg": null
+    },
+    "ring": {
+      "protocol": "pwm",
+      "channel": 3,
+      "curve_motor_to_hardware_sign": null,
+      "curve_motor_to_hardware_offset_deg": null
+    },
+    "pinky": {
+      "protocol": "pwm",
+      "channel": 2,
+      "curve_motor_to_hardware_sign": null,
+      "curve_motor_to_hardware_offset_deg": null
+    }
+  },
+  "hardware_timing_verified": false,
+  "camera_to_base_verified": false
+}

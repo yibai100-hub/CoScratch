@@ -1,0 +1,85 @@
+{
+  "strategy": [
+    {
+      "module": "controller.py",
+      "historical_name": "v103.py",
+      "original_sha256": "1e6ae6f7a4e14efd33701f5cca16748e2af6d812556eef9e9a8d018f1d6a832a",
+      "release_sha256": "f9f307d1448b2b97da59f3e1aa7241978b3303349b5b3c1ba9a1223fb0ba94bc"
+    },
+    {
+      "module": "configure_hand.py",
+      "historical_name": "configure_v102_hand_limits.py",
+      "original_sha256": "a2c7e87f6df65319c5a8e19c4163017ea5474104f2290acd5be5a56312c1e481",
+      "release_sha256": "497d85ee4cb21a6d796025c6defb1b7642353f2837a5b1c98afe7b003fe48525"
+    },
+    {
+      "module": "setup_hand_model.py",
+      "historical_name": "v102_hand_model.py",
+      "original_sha256": "c9f62e92fae516d681022a7fe92ad00044ec69ef963c187683289a61cf64e3f5",
+      "release_sha256": "cf9b6066414fb734cc0a41c8dd889294d901066fe6115291782fae083a857e6e"
+    },
+    {
+      "module": "hand_model.py",
+      "historical_name": "v103_hand_model.py",
+      "original_sha256": "c9f62e92fae516d681022a7fe92ad00044ec69ef963c187683289a61cf64e3f5",
+      "release_sha256": "cf9b6066414fb734cc0a41c8dd889294d901066fe6115291782fae083a857e6e"
+    },
+    {
+      "module": "deformation_monitor.py",
+      "historical_name": "v103_deformation_monitor.py",
+      "original_sha256": "1ea8032b0fe084107a2c8774a087c6419546f58be10f66ab2d6a777efd194847",
+      "release_sha256": "283a495f1d50f7b47d9811a91efec3a15ce6652ddde8faaa80542f224b499ea7"
+    },
+    {
+      "module": "palm_policy.py",
+      "historical_name": "v103_palm_policy.py",
+      "original_sha256": "05f3601391ff9c80feaedfe87a059434261696f9232aae3403dc5afbe46743f5",
+      "release_sha256": "a8974e671f2215c9ac0c5f8acb39f232b1494707cbae79a1d653c74116e8b1cd"
+    },
+    {
+      "module": "joint_search.py",
+      "historical_name": "v103_joint_search.py",
+      "original_sha256": "5ae2521064394d5f2cbc463a2f936c5d8bd41badb69d2a0274bb449fee005517",
+      "release_sha256": "377ff36145ee03e980cba926257aff7b17b6ae27d4d407cda386b8279f628540"
+    },
+    {
+      "module": "contact_wave.py",
+      "historical_name": "v103_contact_wave.py",
+      "original_sha256": "d9a1125dc6974643358e219607ee524f265eaabf0f6c08c7187a71e82bf84641",
+      "release_sha256": "d231eb73835a4f91edb72ec68dc2a845912f1e5a1c46c6fc77dfdaf0e19165d0"
+    },
+    {
+      "module": "base_guard.py",
+      "historical_name": "v103_base_guard.py",
+      "original_sha256": "fc02b1b0c77f0e9a0ad71001107e2224467460598159706a81f01c7ea3945c25",
+      "release_sha256": "a6cbab8459e9b84473b6010ca82ba153f76b5f9f162386959a89d3b65dcd160b"
+    },
+    {
+      "module": "depth_control.py",
+      "historical_name": "v103_depth_control.py",
+      "original_sha256": "ece6536aa8daa52accb996731c105c10a0fd5b8b906c3bb1d80b32de73743a3d",
+      "release_sha256": "462912998e073952ec704d3fe01dca0e3dea484438b61a23836cd0daae7f01d7"
+    },
+    {
+      "module": "release_policy.py",
+      "historical_name": "v103_release_policy.py",
+      "original_sha256": "077fd177fd3a3c8350beca357eddf495aa7c5baa1b6b11ceecc1dd626ece27aa",
+      "release_sha256": "d8cd6bd86e8b03296fa3c7512cd33e5891ad5102b4a0a80d668cc1d23c5b84a4"
+    },
+    {
+      "module": "planning_cache.py",
+      "historical_name": "v104_planning_cache.py",
+      "original_sha256": "8071a33253424b80cc046723db9cfc12432df1c182cdd4e07a843ec902053e7b",
+      "release_sha256": "df0dee45a9c83edfdfdb733f3e3da795a6d3e8345f90343029dafa7395aa6b78"
+    },
+    {
+      "module": "setup_deformation_monitor.py",
+      "historical_name": "v102_deformation_monitor.py",
+      "original_sha256": "1ea8032b0fe084107a2c8774a087c6419546f58be10f66ab2d6a777efd194847",
+      "release_sha256": "283a495f1d50f7b47d9811a91efec3a15ce6652ddde8faaa80542f224b499ea7"
+    }
+  ],
+  "missing_meshes": [],
+  "strategy_origin": "local historical expert planner snapshot; not a claim of exact identity to every training replay",
+  "ACT_checkpoint_sha256": "2b8e8421ffabd90925a69faf7ed55443a131c6689f8bc2983830cccbd577987c"
+}

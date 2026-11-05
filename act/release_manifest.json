@@ -1,0 +1,196 @@
+{
+  "schema": "act_release_v1",
+  "scope": "Public release files; reports and caches excluded",
+  "files": [
+    {
+      "path": "core.py",
+      "sha256": "d39578362f2b3157a4ae42dfbad8ea6261e432a1389aa27dc1171bc2cf1ee4ad",
+      "bytes": 11640
+    },
+    {
+      "path": "frames.py",
+      "sha256": "433b7fa9880045c9e9a8d9da69cfab3f47b0f7fb961e3ce2a19484fe2df82002",
+      "bytes": 1182
+    },
+    {
+      "path": "gateway.py",
+      "sha256": "b22f5ee3325cd65aac16aa0e16451e7b06612b7ae47b2bce583ddb9c5a0504c6",
+      "bytes": 6257
+    },
+    {
+      "path": "hardware_adapter.py",
+      "sha256": "d295ab763c08ad30e723603bf39962d89ef03a002fec100114cace4c4a4c36ab",
+      "bytes": 5688
+    },
+    {
+      "path": "pc_mock_demo.py",
+      "sha256": "1ea8f246cff13419c0e8f3c53ed1b2ebc148a85090c253f33466111a41f3e4cd",
+      "bytes": 3818
+    },
+    {
+      "path": "README.md",
+      "sha256": "cc9a40de7c708a89ad0df18d89ba7c4a48b07c404af8a3f03b0e3f0a26e7da03",
+      "bytes": 2776
+    },
+    {
+      "path": "requirements-pc.txt",
+      "sha256": "1254edf5bbc457d6790cb25786ac95f00363752f8a12ad1c626203ef25d88d7a",
+      "bytes": 264
+    },
+    {
+      "path": "validate-pc.ps1",
+      "sha256": "6ceab73d59a5656c1490d291d6afd9d75a39eb115ffd7ad707a209b5f781cf06",
+      "bytes": 442
+    },
+    {
+      "path": "validate_pc.py",
+      "sha256": "301d9eebe78c7782d8ef73dc81dc91320814b33eaf6e655b0873f5f08bd9a1df",
+      "bytes": 1031
+    },
+    {
+      "path": "verify_release.py",
+      "sha256": "7209434896499c07bbee7b5808eff7e44801eaeded4186bd30cf36b0b1064345",
+      "bytes": 563
+    },
+    {
+      "path": "assets/robot_kinematics.urdf",
+      "sha256": "d69c250387447d3794dc7fe9486a3e384d589ad3517bef9f57974c492b1ffe71",
+      "bytes": 33117
+    },
+    {
+      "path": "config/hardware_binding.pending.json",
+      "sha256": "4ab11403fe2ad389d5f62e0b6df49f40cef16e9a77fd10800a204a5b13c60455",
+      "bytes": 2336
+    },
+    {
+      "path": "config/model_contract.json",
+      "sha256": "45686b256ac0bec4b7bee7b19a03c02a0f82b34d37213bc5118ccb463721cdc5",
+      "bytes": 624
+    },
+    {
+      "path": "fixtures/reference_5367.jsonl",
+      "sha256": "0517239eb1c8e98c0eb741f1bf3545a4ea321b9ace0a77639d2907a22dee0f8f",
+      "bytes": 2131457
+    },
+    {
+      "path": "frozen/act_finger_branch_mapper_continuous_v1.py",
+      "sha256": "52462d484704490207e4c595a02fcf17a6359d9458dd02520e6a2137807e14a1",
+      "bytes": 3206
+    },
+    {
+      "path": "frozen/act_recurrent_joint_phase_v1.py",
+      "sha256": "1b10d4811b3e0ba6dfb0d6cc1bcd827f3f7058f3385c3343421f453010ac5bdf",
+      "bytes": 2173
+    },
+    {
+      "path": "frozen/act_relative_geometry_v1.py",
+      "sha256": "3b3629bd921abe74860e1de3de8648592b24d785393f18b9a3c72101e10ebf4e",
+      "bytes": 2108
+    },
+    {
+      "path": "frozen/act_withdrawal_expert_v1.py",
+      "sha256": "ec0a31c4518f5fd407f2924c2ee85bfe371e6afccb64224850f59b96173377c0",
+      "bytes": 2555
+    },
+    {
+      "path": "frozen/project_paths.py",
+      "sha256": "e86abea143062d7b3ab40ce03146165ca58d131f407080738f1340757b6287ba",
+      "bytes": 70
+    },
+    {
+      "path": "reference/executed_simulation_runtime.py",
+      "sha256": "a822398bb0990d2bba418a258c0f8a8aaf0ff7308c3d84f4efa5153959f5bcf1",
+      "bytes": 23502
+    },
+    {
+      "path": "reference/legacy_arm_calibration_20261006.json",
+      "sha256": "512f7f6bc13480facc701f6c4edfc018d995e8d2bc56d79fa431d9cd70fd3fd4",
+      "bytes": 2530
+    },
+    {
+      "path": "reference/legacy_joint_mapping.json",
+      "sha256": "db07c70c8e5e9e29c50e9c548ae68e8b9c26df481cc5519371247c50e6833507",
+      "bytes": 3344
+    },
+    {
+      "path": "reference/simulation_demo_policy.json",
+      "sha256": "cef98f3e7929629d48104f5f5592e9361f7552944688a5d5e8b8635947caa0d0",
+      "bytes": 1302
+    },
+    {
+      "path": "reference/simulation_evaluation_spec.json",
+      "sha256": "eef6fb04f2f1e46659d0a9f13ab72f732a36e3f562f9d079dc693caf11affda6",
+      "bytes": 1552
+    },
+    {
+      "path": "reference/simulation_home_verified_before_ACT.json",
+      "sha256": "7f5231881249b0423247ddb431c412ca13c71360da61c5b69c9760733ea36916",
+      "bytes": 1258
+    },
+    {
+      "path": "reference/simulation_report.json",
+      "sha256": "dd4d809fef2f0e5a22d8d1b46c9a658d5834a029696656ca878848282a3a1a0a",
+      "bytes": 14012
+    },
+    {
+      "path": "reference/simulation_source_context_identity.json",
+      "sha256": "f4d5f221ec37c48ec9edae6f8ef58c6e37d019fa08e969292a1c9958c5f2aeb1",
+      "bytes": 3270
+    },
+    {
+      "path": "reference/source_manifest.json",
+      "sha256": "d8df0aebb47c0a3fa86473513eb789fad8d7106fa075edf88593e90863cba432",
+      "bytes": 3198
+    },
+    {
+      "path": "tests/test_package.py",
+      "sha256": "be4ce0e812e89443c6a15288d23764312b8c01e06163ad1c00241b97dad0145e",
+      "bytes": 12453
+    },
+    {
+      "path": "weights/final.pt",
+      "sha256": "2b8e8421ffabd90925a69faf7ed55443a131c6689f8bc2983830cccbd577987c",
+      "bytes": 5588171
+    },
+    {
+      "path": "weights/normalization.npz",
+      "sha256": "3e56e56cf3aa23cce7a75ef6e970c860108a0944b6ae52d333c67b458ab2a04f",
+      "bytes": 3104
+    },
+    {
+      "path": "frozen/hand/measured_model.py",
+      "sha256": "f5c0aedc32e71ee8420de7bc3fb1c29de1ce4ccfd1a7b1a86406d939c9a2b023",
+      "bytes": 14900
+    },
+    {
+      "path": "frozen/hand/measured_runtime.py",
+      "sha256": "64ebb723c729afb9983d8c00a309f9acf05f815d57c579225c55efa247e67926",
+      "bytes": 4668
+    },
+    {
+      "path": "frozen/hand/reference_model.py",
+      "sha256": "288df7f7bb2edad4ad5ebd8aa40d318856a58c1555e782b9c8c5d74211a0b997",
+      "bytes": 14053
+    },
+    {
+      "path": "frozen/hand/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "assets/calibration/initial_pose.json",
+      "sha256": "8049b0f9c05b7f33edf0f6bde6b69bcaa1f8913b8ac4b19c71c4ea092c39b18e",
+      "bytes": 765
+    },
+    {
+      "path": "assets/calibration/motor_to_joint.json",
+      "sha256": "950d980577fa809a8f8202ed6b845a4e0f8b284bf153e2316363c9530fafb5ca",
+      "bytes": 312547
+    },
+    {
+      "path": "assets/calibration/sha256.txt",
+      "sha256": "2b91af18bcb62feae4f25f844f456bc41293aa29c7a0416c4e7d45d2ed0534eb",
+      "bytes": 66
+    }
+  ]
+}

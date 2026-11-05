@@ -1,0 +1,50 @@
+{
+  "expected_home_deg": [
+    0.0,
+    55.0,
+    -156.0,
+    0.0,
+    0.0
+  ],
+  "configured_home_sha256": "db07c70c8e5e9e29c50e9c548ae68e8b9c26df481cc5519371247c50e6833507",
+  "last_actual": {
+    "sim_time": 4.000000208616257,
+    "actual_arm_deg": [
+      1.483002452524559e-05,
+      54.994118460909334,
+      -155.99959452974528,
+      0.00027313786939744234,
+      -0.006657138256561479
+    ],
+    "max_arm_home_error_deg": 0.006657138256561479,
+    "actual_finger_deg": {
+      "index": [
+        4.0082487030977925,
+        23.592171780066675,
+        19.522239638574497
+      ],
+      "middle": [
+        7.0972504203338955,
+        24.869787692621532,
+        13.905001565149508
+      ],
+      "ring": [
+        5.272294737319128,
+        14.589552152072159,
+        25.88725877516353
+      ],
+      "pinky": [
+        5.921397069336235,
+        12.510376828149516,
+        15.31844944972841
+      ]
+    }
+  },
+  "finger_home_max_error_deg": 0.045166204964557366,
+  "original_initialization_arm_tolerance_deg": 1.0,
+  "arm_self_contact_pairs": {},
+  "passed": true,
+  "ACT_inferences_before_check": 0,
+  "software_packet_wait_enforced": false,
+  "software_packet_tracking_timeout_enforced": false
+}

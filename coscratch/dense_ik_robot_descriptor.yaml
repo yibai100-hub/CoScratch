@@ -1,0 +1,64 @@
+api_version: 1.0
+
+cspace:
+  - joint1
+  - joint2
+  - joint3
+  - joint4
+  - joint5
+
+root_link: base_link
+
+default_q: [0.000000000000, -1.846563461879, 0.000000000000, 0.000000000000, 0.118682392465]
+
+cspace_to_urdf_rules:
+  - name: right_thumb_cmc_abd
+    rule: fixed
+    value: 0.0
+  - name: right_thumb_cmc_flex
+    rule: fixed
+    value: 0.0
+  - name: right_thumb_mcp
+    rule: fixed
+    value: 0.0
+  - name: right_thumb_ip
+    rule: fixed
+    value: 0.0
+  - name: right_index_mcp_flex
+    rule: fixed
+    value: 0.0
+  - name: right_index_pip
+    rule: fixed
+    value: 0.0
+  - name: right_index_dip
+    rule: fixed
+    value: 0.0
+  - name: right_middle_mcp_flex
+    rule: fixed
+    value: 0.0
+  - name: right_middle_pip
+    rule: fixed
+    value: 0.0
+  - name: right_middle_dip
+    rule: fixed
+    value: 0.0
+  - name: right_ring_mcp_flex
+    rule: fixed
+    value: 0.0
+  - name: right_ring_pip
+    rule: fixed
+    value: 0.0
+  - name: right_ring_dip
+    rule: fixed
+    value: 0.0
+  - name: right_pinky_mcp_flex
+    rule: fixed
+    value: 0.0
+  - name: right_pinky_pip
+    rule: fixed
+    value: 0.0
+  - name: right_pinky_dip
+    rule: fixed
+    value: 0.0
+
+composite_task_spaces: []

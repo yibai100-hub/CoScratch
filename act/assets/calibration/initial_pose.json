@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "mcp_reference_note": "PROVISIONAL: palm assumed vertical in image (90 degrees); not measured palm-relative MCP",
+  "fingers": {
+    "index": {
+      "source_session": "20260927_180552_1eff5913",
+      "palm_reference_deg": 90.0,
+      "mcp_initial_override_deg": null
+    },
+    "middle": {
+      "source_session": "20260927_184520_9336b4d3",
+      "palm_reference_deg": 90.0,
+      "mcp_initial_override_deg": null
+    },
+    "ring": {
+      "source_session": "20260927_192021_b2446fcd",
+      "palm_reference_deg": 90.0,
+      "mcp_initial_override_deg": null
+    },
+    "pinky": {
+      "source_session": "20260927_195257_a1049142",
+      "palm_reference_deg": 90.0,
+      "mcp_initial_override_deg": null
+    }
+  }
+}

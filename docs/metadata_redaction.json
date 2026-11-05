@@ -1,0 +1,14 @@
+[
+  {
+    "path": "reference/simulation_evaluation_spec.json",
+    "historical_sha256": "7b9f085d7d384ff2bf2ba4171cdf88a0eec5a1409e4b73385b575030f2615eef",
+    "published_sha256": "eef6fb04f2f1e46659d0a9f13ab72f732a36e3f562f9d079dc693caf11affda6",
+    "reason": "Historical local filesystem paths redacted; numeric values preserved."
+  },
+  {
+    "path": "reference/simulation_source_context_identity.json",
+    "historical_sha256": "7faeff03bdc4a8e6ae6813982856814e8c3f87ef5f92959cd1707e4a9f388200",
+    "published_sha256": "f4d5f221ec37c48ec9edae6f8ef58c6e37d019fa08e969292a1c9958c5f2aeb1",
+    "reason": "Historical local filesystem paths redacted; numeric values preserved."
+  }
+]

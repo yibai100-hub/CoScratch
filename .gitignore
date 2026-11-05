@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.pem
+*.key
+act/reports/
+coscratch/runs/
+coscratch/scratch_*.json
+coscratch/scratch_*last*.csv
+*.log

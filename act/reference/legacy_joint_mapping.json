@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "description": "New simulation-to-real mapping. PWM channels 1-5 were verified on the physical controller; serial joints remain separate.",
+  "simulation_units": "radians",
+  "hardware_units": "degrees_or_servo_position",
+  "finger_semantics": {
+    "extended_deg": 0.0,
+    "curled_deg": 180.0
+  },
+  "safe_preposition": {
+    "description": "Current physical startup safety pose; fingers remain extended.",
+    "simulation_q_deg": {
+      "joint1": 0.0,
+      "joint2": 55.0,
+      "joint3": -156.0,
+      "joint4": 0.0,
+      "joint5": 0.0
+    },
+    "hardware_servo_deg": {
+      "j1": 88.0,
+      "j2": 180.0,
+      "j3": 0.0,
+      "j4": 89.0,
+      "j5": 88.0
+    },
+    "finger_deg": {
+      "pinky": 0.0,
+      "ring": 0.0,
+      "middle": 0.0,
+      "index": 0.0
+    }
+  },
+  "joints": {
+    "j1": {
+      "protocol": "serial",
+      "servo_id": 1,
+      "model_lower_deg": -90.0,
+      "model_upper_deg": 90.0,
+      "offset_deg": -2.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "servo_range_deg": 180.0
+    },
+    "j2": {
+      "protocol": "pwm",
+      "pwm_channel": 1,
+      "model_lower_deg": -120.0,
+      "model_upper_deg": 60.0,
+      "offset_deg": 5.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "straight_deg": 125.0,
+      "startup_deg": 180.0
+    },
+    "j3": {
+      "protocol": "serial",
+      "servo_id": 3,
+      "model_lower_deg": -156.0,
+      "model_upper_deg": 24.0,
+      "model_servo_zero_deg": 150.0,
+      "offset_deg": 6.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0
+    },
+    "j4": {
+      "protocol": "serial",
+      "servo_id": 4,
+      "model_lower_deg": -90.0,
+      "model_upper_deg": 90.0,
+      "offset_deg": -1.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "servo_range_deg": 180.0
+    },
+    "j5": {
+      "protocol": "serial",
+      "servo_id": 5,
+      "model_lower_deg": -90.0,
+      "model_upper_deg": 90.0,
+      "offset_deg": -2.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "servo_range_deg": 180.0,
+      "demo_range_deg": [0.0, 180.0]
+    },
+    "pinky": {
+      "protocol": "pwm",
+      "pwm_channel": 2,
+      "model_lower_deg": 0.0,
+      "model_upper_deg": 180.0,
+      "offset_deg": 0.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "startup_deg": 0.0
+    },
+    "ring": {
+      "protocol": "pwm",
+      "pwm_channel": 3,
+      "model_lower_deg": 0.0,
+      "model_upper_deg": 180.0,
+      "offset_deg": 0.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "startup_deg": 0.0
+    },
+    "middle": {
+      "protocol": "pwm",
+      "pwm_channel": 4,
+      "model_lower_deg": 0.0,
+      "model_upper_deg": 180.0,
+      "offset_deg": 0.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "startup_deg": 0.0
+    },
+    "index": {
+      "protocol": "pwm",
+      "pwm_channel": 5,
+      "model_lower_deg": 0.0,
+      "model_upper_deg": 180.0,
+      "offset_deg": 0.0,
+      "direction": 1,
+      "hardware_min_deg": 0.0,
+      "hardware_max_deg": 180.0,
+      "startup_deg": 0.0
+    }
+  }
+}

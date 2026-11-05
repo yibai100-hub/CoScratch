@@ -1,0 +1,110 @@
+{
+  "snapshot_sha256": "54b2aac26dbefeffd4d0cf3ca495e74ba6e9f9df45f54b3e606099cd628afdd2",
+  "native_solver_state": {
+    "meters_per_unit": 1.0,
+    "robot_position": {
+      "kind": "ndarray",
+      "dtype": "<f8",
+      "shape": [
+        3
+      ],
+      "value": [
+        0.0,
+        -0.13583169877529144,
+        0.22712773084640503
+      ]
+    },
+    "robot_rotation": {
+      "kind": "ndarray",
+      "dtype": "<f8",
+      "shape": [
+        3,
+        3
+      ],
+      "value": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "ik_configuration": {
+      "bfgs_cspace_limit_biasing": {
+        "kind": "native_enum",
+        "type": "CSpaceLimitBiasing",
+        "name": "AUTO",
+        "value": 0
+      },
+      "bfgs_cspace_limit_biasing_weight": 1.0,
+      "bfgs_cspace_limit_penalty_region": 0.01,
+      "bfgs_gradient_norm_termination": 1e-06,
+      "bfgs_gradient_norm_termination_coarse_scale_factor": 10000000.0,
+      "bfgs_max_iterations": 60,
+      "bfgs_orientation_weight": 100.0,
+      "bfgs_position_weight": 1.0,
+      "ccd_bracket_search_num_uniform_samples": 10,
+      "ccd_descent_termination_delta": 0.1,
+      "ccd_max_iterations": 10,
+      "ccd_orientation_weight": 0.05,
+      "ccd_position_weight": 1.0,
+      "cspace_seeds": [],
+      "irwin_hall_sampling_order": 2,
+      "max_num_descents": 100,
+      "orientation_tolerance": 0.01,
+      "position_tolerance": 0.001,
+      "sampling_seed": 123456
+    },
+    "defaults": {
+      "_default_orientation_tolerance": 0.010000041667134873,
+      "_default_position_tolerance": 0.001,
+      "_default_bfgs_orientation_weight": 100.0,
+      "_default_ccd_orientation_weight": 0.05,
+      "_default_cspace_seeds": []
+    },
+    "contract": "Captured directly from original runtime solver; not inferred defaults"
+  },
+  "original_project": "<historical-local-path>/project",
+  "input_manifest": "input_manifest.json",
+  "input_manifest_sha256": "1a25ce2e1c0d342a1e74c6606e496a123cff9dd082cd042204c3f3e146f7c5ca",
+  "controller_sha256": "2ad746a6f3f020e10fda8fe23bac4ed256694e3f1ef18ba14ae0a690a179bada",
+  "current_fingers": {
+    "index": 0.0,
+    "middle": 0.0,
+    "ring": 0.0,
+    "pinky": 0.0
+  },
+  "current_finger_phases": {
+    "index": "home",
+    "middle": "home",
+    "ring": "home",
+    "pinky": "home"
+  },
+  "original_hand_model": "real_hand_20260927_initial_pose_v2",
+  "parameters": {
+    "MESH_QUERY_NEAREST_TRIANGLES": 32,
+    "HAND_SWEEP_INTERSECTION_EPS_M": 1e-09,
+    "HAND_SWEEP_AABB_PAD_M": 0.0001,
+    "HAND_STATIC_CONTACT_EPS_M": 0.0002,
+    "HAND_COLLISION_COARSE_GATE_M": 0.02
+  },
+  "physical_motion_executed_for_export": false,
+  "scope": "Original initialized runtime state; all worker solver units/config/seeds/base axes captured rather than inferred",
+  "portable_derivation": {
+    "original_identity_sha256": "35dc6d55394febbd99a77a73a91f464806a3fed376d9f8e3eec42f8c337b6d8b",
+    "changed_fields": [
+      "input_manifest"
+    ],
+    "native_state_and_arrays_changed": false
+  }
+}

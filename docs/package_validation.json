@@ -1,0 +1,28 @@
+{
+  "python_syntax": "passed",
+  "strategy_top_level_function_class_AST_matches_after_filename_mapping": 284,
+  "act_tests": {
+    "status": "PASS",
+    "tests": 14,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_s": 3.759673833847046,
+    "python": "3.11.15 (main, Jul 18 2026, 17:06:27) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.0",
+    "scipy": "1.15.3",
+    "hardware_commands_sent": false,
+    "physical_validation_passed": false,
+    "actual_network_scope": "loopback two-process mock gateway"
+  },
+  "new_physx_execution": false,
+  "hardware_motion": false,
+  "github_uploaded": false,
+  "scope": "local publication candidate; scene and third-party licensing review outstanding",
+  "english_publication_audit": {
+    "python_files_byte_identical": 31,
+    "chinese_or_gpt_ai_comment_hits": 0,
+    "weight_unchanged": true
+  }
+}

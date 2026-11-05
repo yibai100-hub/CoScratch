@@ -1,0 +1,42 @@
+{
+  "schema": "act_pc_contract_v1",
+  "model_home_deg": [
+    0,
+    55,
+    -156,
+    0,
+    0
+  ],
+  "base_p": [
+    0.0,
+    -0.13583169877529144,
+    0.22712773084640503
+  ],
+  "base_r": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "control_hz": 120,
+  "memory_stride": 12,
+  "prediction_horizon": 24,
+  "execution_prefix": 24,
+  "arm_speed_deg_s": 18.0,
+  "finger_settings": {
+    "speed_deg_s": 120.0,
+    "release_speed_deg_s": 120.0
+  },
+  "physical_execution_enabled": false
+}

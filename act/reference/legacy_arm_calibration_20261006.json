@@ -1,0 +1,87 @@
+{
+  "schema": "dofbot_arm_calibration/v1",
+  "revision": "20261006_home7_j3_model_tilt_trial",
+  "simulation_units": "radians",
+  "calibration_units": "degrees",
+  "mapping": "hardware_servo_deg = degrees(ros_command_rad) + offset_deg",
+  "source": "User confirmed the reinstalled physical arm is vertical at J2 PWM1=105 deg. J1 remains88; approved J3/J5 +1 deg.",
+  "note": "ROS J2 zero maps to physical105; Home J2=60deg maps to165. User corrected J3 Home to physical7deg, ROS-150deg with zero157. PWM has no position feedback.",
+  "joints": {
+    "joint1": {
+      "offset_deg": 88,
+      "home_model_deg": 0,
+      "model_lower_deg": -88,
+      "model_upper_deg": 90,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "joint2": {
+      "offset_deg": 105,
+      "home_model_deg": 60,
+      "model_lower_deg": -105,
+      "model_upper_deg": 60,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "joint3": {
+      "offset_deg": 157,
+      "home_model_deg": -150,
+      "model_lower_deg": -157,
+      "model_upper_deg": 23,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "joint4": {
+      "offset_deg": 89,
+      "home_model_deg": 0,
+      "model_lower_deg": -89,
+      "model_upper_deg": 90,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "joint5": {
+      "offset_deg": 89,
+      "home_model_deg": 0,
+      "model_lower_deg": -89,
+      "model_upper_deg": 90,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "pinky": {
+      "offset_deg": 0,
+      "home_model_deg": 0,
+      "model_lower_deg": 0,
+      "model_upper_deg": 180,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "ring": {
+      "offset_deg": 0,
+      "home_model_deg": 0,
+      "model_lower_deg": 0,
+      "model_upper_deg": 180,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "middle": {
+      "offset_deg": 0,
+      "home_model_deg": 0,
+      "model_lower_deg": 0,
+      "model_upper_deg": 180,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    },
+    "index": {
+      "offset_deg": 0,
+      "home_model_deg": 0,
+      "model_lower_deg": 0,
+      "model_upper_deg": 180,
+      "hardware_min_deg": 0,
+      "hardware_max_deg": 180
+    }
+  },
+  "model_geometry": {
+    "joint3_origin_roll_correction_deg": -7.0,
+    "source": "Manual Home visual alignment trial after user confirmed upper arm matches and only forearm tilt differs. Not an encoder reading. Straight-pose revalidation pending."
+  }
+}

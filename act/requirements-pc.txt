@@ -1,0 +1,6 @@
+# Versions actually verified locally with Python 3.11.15.
+# Existing installation: torch 2.7.0+cu128. CPU validation does not need Isaac.
+# This file is NOT a Jetson installer. Do not upgrade the working Isaac environment.
+numpy==1.26.0
+scipy==1.15.3
+torch==2.7.0
