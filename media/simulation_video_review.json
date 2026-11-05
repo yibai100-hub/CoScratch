@@ -1,0 +1,341 @@
+{
+  "layout": [
+    [
+      5367,
+      5839
+    ],
+    [
+      6162,
+      6735
+    ]
+  ],
+  "selection": "Curated demonstrations from the previously tested training-set cohort, not a held-out or randomly sampled success-rate evaluation.",
+  "timing": "Frames timestamped by simulation time. Clips aligned at policy/expert execution start; shorter clips freeze on their last frame. Not host wall-clock playback.",
+  "contact": "Existing demo back collision OFF; signed geometric distances are not contact force.",
+  "results": [
+    {
+      "mode": "expert",
+      "target": 5367,
+      "base_distance_cm": 31.428416159133814,
+      "status": "EXPERT_FLOW_COMPLETE",
+      "sim_s": 32.26666834950447,
+      "captured_frames": 968
+    },
+    {
+      "mode": "expert",
+      "target": 5839,
+      "base_distance_cm": 34.054935143232534,
+      "status": "EXPERT_FLOW_COMPLETE",
+      "sim_s": 28.266668140888214,
+      "captured_frames": 848
+    },
+    {
+      "mode": "expert",
+      "target": 6162,
+      "base_distance_cm": 36.01053065473169,
+      "status": "EXPERT_FLOW_COMPLETE",
+      "sim_s": 32.05000167153776,
+      "captured_frames": 962
+    },
+    {
+      "mode": "expert",
+      "target": 6735,
+      "base_distance_cm": 39.560579170575025,
+      "status": "EXPERT_FLOW_COMPLETE",
+      "sim_s": 36.216668555513024,
+      "captured_frames": 1087
+    },
+    {
+      "mode": "act",
+      "target": 5367,
+      "base_distance_cm": 31.428416159133814,
+      "status": "MODEL_DECLARED_DONE",
+      "sim_s": 28.400001481175423,
+      "captured_frames": 852,
+      "bouts": [
+        {
+          "model_cycle_label": "1",
+          "actual_MCP_range_deg": [
+            56.40571451044951,
+            55.93505044361217,
+            58.585165976011226,
+            54.754110309230136
+          ]
+        },
+        {
+          "model_cycle_label": "2",
+          "actual_MCP_range_deg": [
+            63.226568519414144,
+            55.827612421741506,
+            58.63181702181606,
+            54.822554781129185
+          ]
+        }
+      ],
+      "actual_home": {
+        "max_arm_error_deg": 0.7897330463782651,
+        "max_finger_error_deg": 0.9883370391067512,
+        "passed": true,
+        "diagnostic_only_not_phase_gate": true
+      },
+      "stop_events": [],
+      "arm_self_contacts": {
+        "reporters": [
+          "/World/robotnew_with_aero_hand_right/base_link",
+          "/World/robotnew_with_aero_hand_right/link1",
+          "/World/robotnew_with_aero_hand_right/link2",
+          "/World/robotnew_with_aero_hand_right/link3",
+          "/World/robotnew_with_aero_hand_right/link4",
+          "/World/robotnew_with_aero_hand_right/link5",
+          "/World/robotnew_with_aero_hand_right/right_base_link",
+          "/World/robotnew_with_aero_hand_right/right_index_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_index_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_t_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_mcp_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_tip_link"
+        ],
+        "callbacks": 0,
+        "arm_self_contact_rows": 0,
+        "pairs": {},
+        "executing_nonpositive_contact_events": 0,
+        "errors": [],
+        "contact_force_measured": false
+      }
+    },
+    {
+      "mode": "act",
+      "target": 5839,
+      "base_distance_cm": 34.054935143232534,
+      "status": "MODEL_DECLARED_DONE",
+      "sim_s": 29.400001533329487,
+      "captured_frames": 882,
+      "bouts": [
+        {
+          "model_cycle_label": "1",
+          "actual_MCP_range_deg": [
+            63.21505794311538,
+            56.03971882377438,
+            58.634567026730636,
+            54.86991232462629
+          ]
+        },
+        {
+          "model_cycle_label": "2",
+          "actual_MCP_range_deg": [
+            63.084777634226086,
+            56.05945124028655,
+            58.639859996450575,
+            54.84825294099454
+          ]
+        }
+      ],
+      "actual_home": {
+        "max_arm_error_deg": 0.40911974018644837,
+        "max_finger_error_deg": 1.708714869878893,
+        "passed": true,
+        "diagnostic_only_not_phase_gate": true
+      },
+      "stop_events": [],
+      "arm_self_contacts": {
+        "reporters": [
+          "/World/robotnew_with_aero_hand_right/base_link",
+          "/World/robotnew_with_aero_hand_right/link1",
+          "/World/robotnew_with_aero_hand_right/link2",
+          "/World/robotnew_with_aero_hand_right/link3",
+          "/World/robotnew_with_aero_hand_right/link4",
+          "/World/robotnew_with_aero_hand_right/link5",
+          "/World/robotnew_with_aero_hand_right/right_base_link",
+          "/World/robotnew_with_aero_hand_right/right_index_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_index_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_t_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_mcp_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_tip_link"
+        ],
+        "callbacks": 0,
+        "arm_self_contact_rows": 0,
+        "pairs": {},
+        "executing_nonpositive_contact_events": 0,
+        "errors": [],
+        "contact_force_measured": false
+      }
+    },
+    {
+      "mode": "act",
+      "target": 6162,
+      "base_distance_cm": 36.01053065473169,
+      "status": "MODEL_DECLARED_DONE",
+      "sim_s": 30.10000156983733,
+      "captured_frames": 903,
+      "bouts": [
+        {
+          "model_cycle_label": "1",
+          "actual_MCP_range_deg": [
+            53.998391285590074,
+            55.65881368791475,
+            58.60489284299469,
+            54.79088874347654
+          ]
+        },
+        {
+          "model_cycle_label": "2",
+          "actual_MCP_range_deg": [
+            63.194420953425016,
+            55.461603928461685,
+            58.62876008527566,
+            54.813477886609064
+          ]
+        }
+      ],
+      "actual_home": {
+        "max_arm_error_deg": 0.362337194373678,
+        "max_finger_error_deg": 1.144477981357106,
+        "passed": true,
+        "diagnostic_only_not_phase_gate": true
+      },
+      "stop_events": [],
+      "arm_self_contacts": {
+        "reporters": [
+          "/World/robotnew_with_aero_hand_right/base_link",
+          "/World/robotnew_with_aero_hand_right/link1",
+          "/World/robotnew_with_aero_hand_right/link2",
+          "/World/robotnew_with_aero_hand_right/link3",
+          "/World/robotnew_with_aero_hand_right/link4",
+          "/World/robotnew_with_aero_hand_right/link5",
+          "/World/robotnew_with_aero_hand_right/right_base_link",
+          "/World/robotnew_with_aero_hand_right/right_index_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_index_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_t_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_mcp_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_tip_link"
+        ],
+        "callbacks": 0,
+        "arm_self_contact_rows": 0,
+        "pairs": {},
+        "executing_nonpositive_contact_events": 0,
+        "errors": [],
+        "contact_force_measured": false
+      }
+    },
+    {
+      "mode": "act",
+      "target": 6735,
+      "base_distance_cm": 39.560579170575025,
+      "status": "MODEL_DECLARED_DONE",
+      "sim_s": 30.500001590698957,
+      "captured_frames": 915,
+      "bouts": [
+        {
+          "model_cycle_label": "1",
+          "actual_MCP_range_deg": [
+            63.09083942711448,
+            56.06074299981332,
+            58.69428763951229,
+            54.88551119603014
+          ]
+        },
+        {
+          "model_cycle_label": "2",
+          "actual_MCP_range_deg": [
+            63.11712498324845,
+            56.0142046521298,
+            58.63605045844099,
+            54.8517132855828
+          ]
+        }
+      ],
+      "actual_home": {
+        "max_arm_error_deg": 0.3555817025837001,
+        "max_finger_error_deg": 1.2179452429388693,
+        "passed": true,
+        "diagnostic_only_not_phase_gate": true
+      },
+      "stop_events": [],
+      "arm_self_contacts": {
+        "reporters": [
+          "/World/robotnew_with_aero_hand_right/base_link",
+          "/World/robotnew_with_aero_hand_right/link1",
+          "/World/robotnew_with_aero_hand_right/link2",
+          "/World/robotnew_with_aero_hand_right/link3",
+          "/World/robotnew_with_aero_hand_right/link4",
+          "/World/robotnew_with_aero_hand_right/link5",
+          "/World/robotnew_with_aero_hand_right/right_base_link",
+          "/World/robotnew_with_aero_hand_right/right_index_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_index_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_index_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_middle_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_pinky_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_middle_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_ring_tip_link",
+          "/World/robotnew_with_aero_hand_right/right_t_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_mcp_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_proximal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_distal_link",
+          "/World/robotnew_with_aero_hand_right/right_thumb_tip_link"
+        ],
+        "callbacks": 0,
+        "arm_self_contact_rows": 0,
+        "pairs": {},
+        "executing_nonpositive_contact_events": 0,
+        "errors": [],
+        "contact_force_measured": false
+      }
+    }
+  ]
+}

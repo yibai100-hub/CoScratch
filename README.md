@@ -20,6 +20,16 @@ Cloud orchestration, reinforcement-learning experiments, the mobile app and inte
 
 This user-provided physical recording illustrates observed behavior; it is not a quantitative contact-force or generalization evaluation.
 
+## Isaac Sim demonstrations
+
+| Expert plan replay | Frozen ACT policy |
+| --- | --- |
+| [![Expert replay](media/expert_preview.jpg)](https://github.com/yibai100-hub/CoScratch/raw/refs/heads/main/media/expert_2x2.mp4) | [![ACT policy](media/act_preview.jpg)](https://github.com/yibai100-hub/CoScratch/raw/refs/heads/main/media/act_2x2.mp4) |
+
+Fresh native PhysX recordings at four selected points: top-left **5367 (31.4 cm)**, top-right **5839 (34.1 cm)**, bottom-left **6162 (36.0 cm)**, bottom-right **6735 (39.6 cm)** from the robot base. The same layout is used in both videos. Each tile contains only the third-person viewport. Playback follows simulation time, not host wall-clock time; shorter clips hold their final frame. No speed or interface overlays are added.
+
+These are curated demonstrations from the previously tested training-set cohort, not a held-out evaluation or an overall success-rate estimate. All four expert replays completed. Each ACT recording contains two model-labelled wave/curl intervals with measured motion in all four fingers, no stop event, and a passing final Home diagnostic. Existing depth errors remain outside that action-flow criterion. Back collision remains disabled in this demo scene; geometric distance does not establish contact force or scratching effectiveness. See [recording results and limitations](media/simulation_video_review.json).
+
 ## Offline validation
 
 The recorded local environment uses Python 3.11.15, PyTorch 2.7.0+cu128, NumPy 1.26.0 and SciPy 1.15.3. Use a separate environment rather than replacing an existing robot installation.
